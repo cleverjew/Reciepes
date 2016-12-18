@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/add.css"> <!-- CSS reset -->
+    <title>Title</title>
+</head>
+<body>
+<div class="form-style-5">
+    <form>
+        <fieldset>
+            <select id="category_recipe" name="field4">
+                <optgroup label="Европейская кухня">
+                    <option value="meet">Блюда из мяса</option>
+                    <option value="desert">Десерты</option>
+                </optgroup>
+                <optgroup label="Японская кухня">
+                    <option value="roll">Роллы</option>
+                    <option value="fish">Блюда из рыбы</option>
+                </optgroup>
+            </select>
+            <legend><span class="number">1</span>Информация о блюде:</legend>
+            <label for="ingr_cat">Категория продукта:</label>
+            <select id="ingr_cat" name="field4">
+                <option value="meet">Мясо
+                </option>
+                <option value="vegetables">Овощи
+                </option>
+            </select>
+            <label for="ingr">Ингредиент:</label>
+            <select id="ingr" name="field4">
+                    <option value="beef">Говядина</option>
+                    <option value="pork">Свинина</option>
+            </select>            <textarea name="field3" placeholder="Количество"></textarea>
+        </fieldset>
+        <input type="button" value="Добавить игредиент" />
+
+        <fieldset>
+            <legend><span class="number">2</span>Описание рецепта</legend>
+            <textarea name="field3" placeholder=""></textarea>
+        </fieldset>
+        <input type="submit" value="Добавить рецепт" />
+    </form>
+</div>
+</body>
+</html>
